@@ -2069,6 +2069,7 @@ namespace ImpulsePrep
             bool ok = true;
             System.Console.Error.WriteLine("ImpulsePrep v{0}", DSPUtil.DSPUtil.VERSION);
             System.Console.Error.WriteLine("http://inguzaudio.com/Tools/ImpulsePrep/");
+            /*
             if (DSPUtil.DSPUtil.EXPIRY != null)
             {
                 if (DateTime.Now.CompareTo(DSPUtil.DSPUtil.EXPIRY) >= 0)
@@ -2081,6 +2082,7 @@ namespace ImpulsePrep
                     System.Console.Error.WriteLine("This evaluation version will expire {0}", DSPUtil.DSPUtil.EXPIRY);
                 }
             }
+            */
             stderr.WriteLine();
             return ok;
         }
